@@ -1,0 +1,41 @@
+{
+  "name": "vibewrite",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "test:gdg-agent": "tsx scripts/test-gdg-agent.ts",
+    "sync:weaviate": "tsx scripts/sync-weaviate-knowledge.ts"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^4.0.46",
+    "@supabase/supabase-js": "^2.112.3",
+    "ai": "^7.0.77",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "csv-parse": "^7.0.2",
+    "lucide-react": "^1.33.0",
+    "mammoth": "^1.12.1",
+    "next": "16.3.2",
+    "openai": "^7.5.0",
+    "pdf-parse": "^2.4.5",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "tailwind-merge": "^3.6.0",
+    "uuid": "^14.0.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.2",
+    "tailwindcss": "^4",
+    "tsx": "^4.23.12",
+    "typescript": "^5"
+  }
+}

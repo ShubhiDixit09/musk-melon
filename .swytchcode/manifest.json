@@ -1,0 +1,26 @@
+{
+  "project": "muskmelon-knowledge-twin",
+  "version": "1.0.0",
+  "description": "MindCommit — Version-Controlled Knowledge Twin execution manifest",
+  "environment": "development",
+  "execution": {
+    "retries": {
+      "maxAttempts": 3,
+      "backoffMs": 1000,
+      "maxBackoffMs": 30000,
+      "retryableStatusCodes": [429, 500, 502, 503, 504]
+    },
+    "timeout": {
+      "defaultMs": 30000,
+      "maxMs": 60000
+    },
+    "idempotency": {
+      "enabled": true,
+      "headerName": "Idempotency-Key"
+    },
+    "telemetry": {
+      "enabled": true,
+      "maxAuditEntries": 1000
+    }
+  }
+}

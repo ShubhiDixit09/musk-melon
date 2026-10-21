@@ -1,0 +1,496 @@
+[
+  {
+    "id": "seed-musk-1",
+    "content": "[2010-06-04] (SpaceX & Rocketry) Falcon 9 first launch achieved orbit! Great day for SpaceX. Making orbital rockets reusable is the key to making humanity a multi-planetary species. (Source: @elonmusk on X / SpaceX Flight 1)",
+    "embedding": [],
+    "commitId": "commit-20100604-0",
+    "validFrom": "2010-06-04",
+    "metadata": {
+      "source": "@elonmusk on X / SpaceX Flight 1",
+      "sourceType": "tweet",
+      "topic": "SpaceX & Rocketry",
+      "chunkIndex": 0
+    }
+  },
+  {
+    "id": "seed-musk-2",
+    "content": "[2011-04-05] (SpaceX & Mars) If we can make rockets fully and rapidly reusable, the cost of access to space drops by two orders of magnitude. A city on Mars becomes feasible. (Source: @elonmusk on X)",
+    "embedding": [],
+    "commitId": "commit-20110405-1",
+    "validFrom": "2011-04-05",
+    "metadata": {
+      "source": "@elonmusk on X",
+      "sourceType": "tweet",
+      "topic": "SpaceX & Mars",
+      "chunkIndex": 1
+    }
+  },
+  {
+    "id": "seed-musk-3",
+    "content": "[2012-06-22] (Tesla & Electric Vehicles) First customer deliveries of Tesla Model S today. We set out to prove that an electric car can be better than any gasoline car in every metric. (Source: @elonmusk on X)",
+    "embedding": [],
+    "commitId": "commit-20120622-2",
+    "validFrom": "2012-06-22",
+    "metadata": {
+      "source": "@elonmusk on X",
+      "sourceType": "tweet",
+      "topic": "Tesla & Electric Vehicles",
+      "chunkIndex": 2
+    }
+  },
+  {
+    "id": "seed-musk-4",
+    "content": "[2013-08-12] (Transportation & Physics) Published Hyperloop Alpha white paper. High-speed travel in low-pressure tubes powered by solar energy. Faster and safer than bullet trains. (Source: Tesla / SpaceX Blog)",
+    "embedding": [],
+    "commitId": "commit-20130812-3",
+    "validFrom": "2013-08-12",
+    "metadata": {
+      "source": "Tesla / SpaceX Blog",
+      "sourceType": "tweet",
+      "topic": "Transportation & Physics",
+      "chunkIndex": 3
+    }
+  },
+  {
+    "id": "seed-musk-5",
+    "content": "[2014-06-12] (Open Source & Tesla) All Our Patent Are Belong To You. Tesla will not initiate patent lawsuits against anyone who, in good faith, wants to use our technology. (Source: Tesla Official Blog post by Elon Musk)",
+    "embedding": [],
+    "commitId": "commit-20140612-4",
+    "validFrom": "2014-06-12",
+    "metadata": {
+      "source": "Tesla Official Blog post by Elon Musk",
+      "sourceType": "tweet",
+      "topic": "Open Source & Tesla",
+      "chunkIndex": 4
+    }
+  },
+  {
+    "id": "seed-musk-6",
+    "content": "[2014-10-24] (Artificial Intelligence) With artificial intelligence we are summoning the demon. In all those stories where there's the guy with the pentagram and the holy water, it's like yeah he's sure he can control the demon. Didn't work out. (Source: MIT AeroAstro Centennial Symposium)",
+    "embedding": [],
+    "commitId": "commit-20141024-5",
+    "validFrom": "2014-10-24",
+    "metadata": {
+      "source": "MIT AeroAstro Centennial Symposium",
+      "sourceType": "tweet",
+      "topic": "Artificial Intelligence",
+      "chunkIndex": 5
+    }
+  },
+  {
+    "id": "seed-musk-7",
+    "content": "[2015-12-11] (Artificial Intelligence) Co-founding OpenAI as a non-profit artificial intelligence research company. Our goal is to advance digital intelligence in the way that is most likely to benefit humanity as a whole. (Source: OpenAI Founding Announcement)",
+    "embedding": [],
+    "commitId": "commit-20151211-6",
+    "validFrom": "2015-12-11",
+    "metadata": {
+      "source": "OpenAI Founding Announcement",
+      "sourceType": "tweet",
+      "topic": "Artificial Intelligence",
+      "chunkIndex": 6
+    }
+  },
+  {
+    "id": "seed-musk-8",
+    "content": "[2015-12-21] (SpaceX & Rocketry) Falcon 9 first stage landed back upright at Landing Zone 1, Cape Canaveral! First time in human history an orbital-class rocket returned from space. (Source: @elonmusk on X)",
+    "embedding": [],
+    "commitId": "commit-20151221-7",
+    "validFrom": "2015-12-21",
+    "metadata": {
+      "source": "@elonmusk on X",
+      "sourceType": "tweet",
+      "topic": "SpaceX & Rocketry",
+      "chunkIndex": 7
+    }
+  },
+  {
+    "id": "seed-musk-9",
+    "content": "[2016-03-31] (Tesla & Model 3) Over 115,000 Model 3 pre-orders in the first 24 hours before anyone even saw the car. The transition to sustainable transport has truly begun. (Source: @elonmusk on X)",
+    "embedding": [],
+    "commitId": "commit-20160331-8",
+    "validFrom": "2016-03-31",
+    "metadata": {
+      "source": "@elonmusk on X",
+      "sourceType": "tweet",
+      "topic": "Tesla & Model 3",
+      "chunkIndex": 8
+    }
+  },
+  {
+    "id": "seed-musk-10",
+    "content": "[2016-07-20] (Tesla Master Plan) Master Plan, Part Deux: Create stunning solar roofs, expand electric vehicle product line, develop self-driving capability that is 10X safer than manual, enable your car to make money for you when you aren't using it. (Source: Tesla Blog)",
+    "embedding": [],
+    "commitId": "commit-20160720-9",
+    "validFrom": "2016-07-20",
+    "metadata": {
+      "source": "Tesla Blog",
+      "sourceType": "tweet",
+      "topic": "Tesla Master Plan",
+      "chunkIndex": 9
+    }
+  },
+  {
+    "id": "seed-musk-11",
+    "content": "[2016-12-17] (The Boring Company) Traffic is driving me nuts. Am going to build a tunnel boring machine and just start digging... It shall be called 'The Boring Company'. (Source: @elonmusk on X)",
+    "embedding": [],
+    "commitId": "commit-20161217-10",
+    "validFrom": "2016-12-17",
+    "metadata": {
+      "source": "@elonmusk on X",
+      "sourceType": "tweet",
+      "topic": "The Boring Company",
+      "chunkIndex": 10
+    }
+  },
+  {
+    "id": "seed-musk-12",
+    "content": "[2017-03-27] (Neuralink & Brain Interface) Creating Neuralink. If you assume any rate of advancement in AI, we will be left far behind. A direct neural interface with the digital world is how humans merge with AI. (Source: Vanity Fair / @elonmusk on X)",
+    "embedding": [],
+    "commitId": "commit-20170327-11",
+    "validFrom": "2017-03-27",
+    "metadata": {
+      "source": "Vanity Fair / @elonmusk on X",
+      "sourceType": "tweet",
+      "topic": "Neuralink & Brain Interface",
+      "chunkIndex": 11
+    }
+  },
+  {
+    "id": "seed-musk-13",
+    "content": "[2017-07-28] (Tesla & Manufacturing) Handing over the first 30 Model 3s. Welcome to production hell. Building the factory—the machine that builds the machine—is 1000% harder than designing the prototype. (Source: Tesla Model 3 Delivery Event)",
+    "embedding": [],
+    "commitId": "commit-20170728-12",
+    "validFrom": "2017-07-28",
+    "metadata": {
+      "source": "Tesla Model 3 Delivery Event",
+      "sourceType": "tweet",
+      "topic": "Tesla & Manufacturing",
+      "chunkIndex": 12
+    }
+  },
+  {
+    "id": "seed-musk-14",
+    "content": "[2018-02-06] (SpaceX & Falcon Heavy) Falcon Heavy launch successful! My cherry red Tesla Roadster and Starman are currently cruising beyond the orbit of Mars. Red car for a red planet. (Source: @elonmusk on X)",
+    "embedding": [],
+    "commitId": "commit-20180206-13",
+    "validFrom": "2018-02-06",
+    "metadata": {
+      "source": "@elonmusk on X",
+      "sourceType": "tweet",
+      "topic": "SpaceX & Falcon Heavy",
+      "chunkIndex": 13
+    }
+  },
+  {
+    "id": "seed-musk-15",
+    "content": "[2018-02-18] (Cryptocurrency) I literally own zero cryptocurrency, apart from 0.25 BTC that a friend sent me many years ago. Not actively holding crypto. (Source: @elonmusk on X)",
+    "embedding": [],
+    "commitId": "commit-20180218-14",
+    "validFrom": "2018-02-18",
+    "metadata": {
+      "source": "@elonmusk on X",
+      "sourceType": "tweet",
+      "topic": "Cryptocurrency",
+      "chunkIndex": 14
+    }
+  },
+  {
+    "id": "seed-musk-16",
+    "content": "[2018-08-07] (Tesla & Corporate) Am considering taking Tesla private at $420. Funding secured. Investor support is confirmed. (Source: @elonmusk on X)",
+    "embedding": [],
+    "commitId": "commit-20180807-15",
+    "validFrom": "2018-08-07",
+    "metadata": {
+      "source": "@elonmusk on X",
+      "sourceType": "tweet",
+      "topic": "Tesla & Corporate",
+      "chunkIndex": 15
+    }
+  },
+  {
+    "id": "seed-musk-17",
+    "content": "[2019-11-21] (Tesla & Cybertruck) Unveiling Tesla Cybertruck. Built with Ultra-Hard 30X Cold-Rolled stainless steel and armored glass. Franz threw steel ball at window... room for improvement! (Source: Tesla Cybertruck Reveal Event)",
+    "embedding": [],
+    "commitId": "commit-20191121-16",
+    "validFrom": "2019-11-21",
+    "metadata": {
+      "source": "Tesla Cybertruck Reveal Event",
+      "sourceType": "tweet",
+      "topic": "Tesla & Cybertruck",
+      "chunkIndex": 16
+    }
+  },
+  {
+    "id": "seed-musk-18",
+    "content": "[2020-04-29] (Politics & COVID) FREE AMERICA NOW. Give people their freedom back. Lockdowns are de facto house arrest. (Source: @elonmusk on X)",
+    "embedding": [],
+    "commitId": "commit-20200429-17",
+    "validFrom": "2020-04-29",
+    "metadata": {
+      "source": "@elonmusk on X",
+      "sourceType": "tweet",
+      "topic": "Politics & COVID",
+      "chunkIndex": 17
+    }
+  },
+  {
+    "id": "seed-musk-19",
+    "content": "[2020-05-30] (SpaceX & Crew Dragon) First human launch to the ISS aboard SpaceX Crew Dragon (Demo-2 with Bob and Doug). Commercial crew operational. America has returned to space on American rockets. (Source: NASA / SpaceX Launch Stream)",
+    "embedding": [],
+    "commitId": "commit-20200530-18",
+    "validFrom": "2020-05-30",
+    "metadata": {
+      "source": "NASA / SpaceX Launch Stream",
+      "sourceType": "tweet",
+      "topic": "SpaceX & Crew Dragon",
+      "chunkIndex": 18
+    }
+  },
+  {
+    "id": "seed-musk-20",
+    "content": "[2020-08-28] (Neuralink) Demonstrating working Neuralink implant in Gertrude the pig. Coin-sized device in the skull. Reading real-time neural spikes. Telepathy and curing paralysis are coming. (Source: Neuralink Progress Update)",
+    "embedding": [],
+    "commitId": "commit-20200828-19",
+    "validFrom": "2020-08-28",
+    "metadata": {
+      "source": "Neuralink Progress Update",
+      "sourceType": "tweet",
+      "topic": "Neuralink",
+      "chunkIndex": 19
+    }
+  },
+  {
+    "id": "seed-musk-21",
+    "content": "[2021-02-08] (Cryptocurrency & Bitcoin) Tesla has purchased $1.5 billion in Bitcoin and plans to accept it as payment for our vehicles. Bitcoin is on the verge of broad acceptance by conventional finance. (Source: Tesla SEC 10-K Filing & @elonmusk)",
+    "embedding": [],
+    "commitId": "commit-20210208-20",
+    "validFrom": "2021-02-08",
+    "metadata": {
+      "source": "Tesla SEC 10-K Filing & @elonmusk",
+      "sourceType": "tweet",
+      "topic": "Cryptocurrency & Bitcoin",
+      "chunkIndex": 20
+    }
+  },
+  {
+    "id": "seed-musk-22",
+    "content": "[2021-03-24] (Cryptocurrency & Bitcoin) You can now buy a Tesla with Bitcoin! Bitcoin paid to Tesla will be retained as Bitcoin, not converted to fiat currency. (Source: @elonmusk on X)",
+    "embedding": [],
+    "commitId": "commit-20210324-21",
+    "validFrom": "2021-03-24",
+    "metadata": {
+      "source": "@elonmusk on X",
+      "sourceType": "tweet",
+      "topic": "Cryptocurrency & Bitcoin",
+      "chunkIndex": 21
+    }
+  },
+  {
+    "id": "seed-musk-23",
+    "content": "[2021-05-12] (Cryptocurrency & Environment) Tesla has suspended vehicle purchases using Bitcoin. We are concerned about rapidly increasing use of fossil fuels for Bitcoin mining and transactions, especially coal. Cryptocurrency is a good idea on many levels, but this cannot come at great cost to the environment. (Source: @elonmusk on X)",
+    "embedding": [],
+    "commitId": "commit-20210512-22",
+    "validFrom": "2021-05-12",
+    "metadata": {
+      "source": "@elonmusk on X",
+      "sourceType": "tweet",
+      "topic": "Cryptocurrency & Environment",
+      "chunkIndex": 22
+    }
+  },
+  {
+    "id": "seed-musk-24",
+    "content": "[2021-05-20] (Cryptocurrency & Dogecoin) Dogecoin is the people's crypto. It has better transaction speed and efficiency than Bitcoin. Working with Doge devs to improve system transaction efficiency. Potentially promising. (Source: @elonmusk on X)",
+    "embedding": [],
+    "commitId": "commit-20210520-23",
+    "validFrom": "2021-05-20",
+    "metadata": {
+      "source": "@elonmusk on X",
+      "sourceType": "tweet",
+      "topic": "Cryptocurrency & Dogecoin",
+      "chunkIndex": 23
+    }
+  },
+  {
+    "id": "seed-musk-25",
+    "content": "[2021-08-19] (Tesla & Robotics / AI) Announcing the Tesla Bot (Optimus). A humanoid robot designed to eliminate dangerous, repetitive, boring tasks. If machines can do physical labor, the economy becomes quasi-infinite. (Source: Tesla AI Day 2021)",
+    "embedding": [],
+    "commitId": "commit-20210819-24",
+    "validFrom": "2021-08-19",
+    "metadata": {
+      "source": "Tesla AI Day 2021",
+      "sourceType": "tweet",
+      "topic": "Tesla & Robotics / AI",
+      "chunkIndex": 24
+    }
+  },
+  {
+    "id": "seed-musk-26",
+    "content": "[2022-04-14] (Free Speech & Twitter) I made an offer to buy 100% of Twitter for $54.20 per share. Free speech is the bedrock of a functioning democracy, and Twitter is the digital town square where matters vital to the future of humanity are debated. (Source: SEC 13D Filing / @elonmusk)",
+    "embedding": [],
+    "commitId": "commit-20220414-25",
+    "validFrom": "2022-04-14",
+    "metadata": {
+      "source": "SEC 13D Filing / @elonmusk",
+      "sourceType": "tweet",
+      "topic": "Free Speech & Twitter",
+      "chunkIndex": 25
+    }
+  },
+  {
+    "id": "seed-musk-27",
+    "content": "[2022-10-27] (Free Speech & Twitter / X) The bird is freed. Entering Twitter HQ with a sink: 'Entering Twitter HQ – let that sink in!'. Objective is to make Twitter the most trusted platform for free speech. (Source: @elonmusk on X)",
+    "embedding": [],
+    "commitId": "commit-20221027-26",
+    "validFrom": "2022-10-27",
+    "metadata": {
+      "source": "@elonmusk on X",
+      "sourceType": "tweet",
+      "topic": "Free Speech & Twitter / X",
+      "chunkIndex": 26
+    }
+  },
+  {
+    "id": "seed-musk-28",
+    "content": "[2023-03-09] (Politics & Society) I used to vote 100% Democrat. But now the woke mind virus is an existential threat to civilization. We need common sense and meritocracy. (Source: @elonmusk on X)",
+    "embedding": [],
+    "commitId": "commit-20230309-27",
+    "validFrom": "2023-03-09",
+    "metadata": {
+      "source": "@elonmusk on X",
+      "sourceType": "tweet",
+      "topic": "Politics & Society",
+      "chunkIndex": 27
+    }
+  },
+  {
+    "id": "seed-musk-29",
+    "content": "[2023-07-12] (Artificial Intelligence & xAI) Announcing formation of xAI. The goal of xAI is to understand the true nature of the universe. We will build maximum truth-seeking AI that is maximally curious. (Source: xAI Launch Space)",
+    "embedding": [],
+    "commitId": "commit-20230712-28",
+    "validFrom": "2023-07-12",
+    "metadata": {
+      "source": "xAI Launch Space",
+      "sourceType": "tweet",
+      "topic": "Artificial Intelligence & xAI",
+      "chunkIndex": 28
+    }
+  },
+  {
+    "id": "seed-musk-30",
+    "content": "[2023-11-04] (Artificial Intelligence & Grok) Grok is an AI modeled after the Hitchhiker's Guide to the Galaxy. It is designed to answer almost anything and, far harder, even suggest what questions to ask! It has real-time knowledge of the world via X. (Source: @elonmusk on X)",
+    "embedding": [],
+    "commitId": "commit-20231104-29",
+    "validFrom": "2023-11-04",
+    "metadata": {
+      "source": "@elonmusk on X",
+      "sourceType": "tweet",
+      "topic": "Artificial Intelligence & Grok",
+      "chunkIndex": 29
+    }
+  },
+  {
+    "id": "seed-musk-31",
+    "content": "[2024-01-29] (Neuralink & Telepathy) The first human patient received an implant from Neuralink yesterday and is recovering well. Initial results show promising neuron spike detection. The initial product is called Telepathy. (Source: @elonmusk on X)",
+    "embedding": [],
+    "commitId": "commit-20240129-30",
+    "validFrom": "2024-01-29",
+    "metadata": {
+      "source": "@elonmusk on X",
+      "sourceType": "tweet",
+      "topic": "Neuralink & Telepathy",
+      "chunkIndex": 30
+    }
+  },
+  {
+    "id": "seed-musk-32",
+    "content": "[2024-07-13] (Politics & Endorsement) I fully endorse President Trump and hope for his rapid recovery. Last time America had a candidate this tough was Theodore Roosevelt. (Source: @elonmusk on X)",
+    "embedding": [],
+    "commitId": "commit-20240713-31",
+    "validFrom": "2024-07-13",
+    "metadata": {
+      "source": "@elonmusk on X",
+      "sourceType": "tweet",
+      "topic": "Politics & Endorsement",
+      "chunkIndex": 31
+    }
+  },
+  {
+    "id": "seed-musk-33",
+    "content": "[2024-10-10] (Tesla & Cybercab Robotaxi) We, Robot: Unveiling Cybercab and Robovan. Inductive wireless charging, no steering wheel, no pedals. Cost per mile will drop to 20 cents. Autonomous future is here. (Source: Tesla We, Robot Event)",
+    "embedding": [],
+    "commitId": "commit-20241010-32",
+    "validFrom": "2024-10-10",
+    "metadata": {
+      "source": "Tesla We, Robot Event",
+      "sourceType": "tweet",
+      "topic": "Tesla & Cybercab Robotaxi",
+      "chunkIndex": 32
+    }
+  },
+  {
+    "id": "seed-musk-34",
+    "content": "[2025-01-20] (Government Efficiency & DOGE) Department of Government Efficiency (DOGE). The American people voted for major reform and government simplification. We must delete outdated regulations and stop wasteful spending. (Source: @elonmusk on X)",
+    "embedding": [],
+    "commitId": "commit-20250120-33",
+    "validFrom": "2025-01-20",
+    "metadata": {
+      "source": "@elonmusk on X",
+      "sourceType": "tweet",
+      "topic": "Government Efficiency & DOGE",
+      "chunkIndex": 33
+    }
+  },
+  {
+    "id": "seed-musk-35",
+    "content": "[2025-03-15] (SpaceX & Mars Vision) Starship Flight 7 & beyond. We are aiming for first uncrewed Starships to Mars in late 2026 window. If those land safely, first crewed flights in 2028. Goal remains a self-sustaining million-person city on Mars by 2050. (Source: SpaceX Starbase Update)",
+    "embedding": [],
+    "commitId": "commit-20250315-34",
+    "validFrom": "2025-03-15",
+    "metadata": {
+      "source": "SpaceX Starbase Update",
+      "sourceType": "tweet",
+      "topic": "SpaceX & Mars Vision",
+      "chunkIndex": 34
+    }
+  },
+  {
+    "id": "web_wiki_1787481274088",
+    "content": "[Wikipedia Public Record] Elon Reeve Musk is a businessman and former public official who is the CEO and largest shareholder of Tesla and SpaceX. Musk has been the wealthiest person in the world since 2025, and briefly became the only trillionaire in June 2026; as of August 14, 2026, Forbes estimates his net worth to be US$864 billion.",
+    "embedding": [],
+    "commitId": "commit_web_2026-08-23",
+    "validFrom": "2026-08-23",
+    "metadata": {
+      "source": "Wikipedia Verified Elon Musk Biography",
+      "sourceType": "document",
+      "topic": "biography",
+      "chunkIndex": 0
+    }
+  },
+  {
+    "id": "web_wiki_1787481548497",
+    "content": "[Wikipedia Public Record] Elon Reeve Musk is a businessman and former public official who is the CEO and largest shareholder of Tesla and SpaceX. Musk has been the wealthiest person in the world since 2025, and briefly became the only trillionaire in June 2026; as of August 14, 2026, Forbes estimates his net worth to be US$864 billion.",
+    "embedding": [],
+    "commitId": "commit_web_2026-08-23",
+    "validFrom": "2026-08-23",
+    "metadata": {
+      "source": "Wikipedia Verified Elon Musk Biography",
+      "sourceType": "document",
+      "topic": "biography",
+      "chunkIndex": 0
+    }
+  },
+  {
+    "id": "web_wiki_1787482575770",
+    "content": "[Wikipedia Public Record] Elon Reeve Musk is a businessman and former public official who is the CEO and largest shareholder of Tesla and SpaceX. Musk has been the wealthiest person in the world since 2025, and briefly became the only trillionaire in June 2026; as of August 14, 2026, Forbes estimates his net worth to be US$864 billion.",
+    "embedding": [],
+    "commitId": "commit_web_2026-08-23",
+    "validFrom": "2026-08-23",
+    "metadata": {
+      "source": "Wikipedia Verified Elon Musk Biography",
+      "sourceType": "document",
+      "topic": "biography",
+      "chunkIndex": 0
+    }
+  }
+]

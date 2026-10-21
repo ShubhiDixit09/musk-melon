@@ -1,0 +1,98 @@
+{
+  "project": "muskmelon-knowledge-twin",
+  "version": "1.0.0",
+  "description": "MindCommit (MuskMelon) - Version-Controlled Knowledge Twin of Elon Musk with Swytchcode Execution Layer",
+  "mode": "development",
+  "editor": "cursor",
+  "integrations": [
+    {
+      "name": "stripe",
+      "description": "Stripe payment and refund processing with policy guardrails",
+      "tools": [
+        "stripe.refunds.create",
+        "stripe.customers.retrieve"
+      ]
+    },
+    {
+      "name": "gmail",
+      "description": "Send Answer Receipt emails and notification messages",
+      "tools": [
+        "gmail.send_email",
+        "gmail.list_messages",
+        "gmail.get_message"
+      ]
+    },
+    {
+      "name": "googledrive",
+      "description": "Sync approved documents and historical text for knowledge commits",
+      "tools": [
+        "googledrive.list_files",
+        "googledrive.download_file"
+      ]
+    },
+    {
+      "name": "telegram",
+      "description": "Authorized twin access channel for verified subscribers",
+      "tools": [
+        "telegram.send_message"
+      ]
+    },
+    {
+      "name": "slack",
+      "description": "Team collaboration channel for question answering",
+      "tools": [
+        "slack.post_message",
+        "slack.list_channels",
+        "slack.get_channel_history"
+      ]
+    },
+    {
+      "name": "resend",
+      "description": "Transactional email delivery for Answer Receipts",
+      "tools": [
+        "resend.send_email"
+      ]
+    },
+    {
+      "name": "github",
+      "description": "Code and documentation knowledge source",
+      "tools": [
+        "github.list_repos",
+        "github.get_file",
+        "github.search_code"
+      ]
+    },
+    {
+      "name": "notion",
+      "description": "Notion workspace knowledge ingestion",
+      "tools": [
+        "notion.search",
+        "notion.get_page"
+      ]
+    },
+    {
+      "name": "firecrawl",
+      "description": "Web scraping for public content ingestion",
+      "tools": [
+        "firecrawl.scrape",
+        "firecrawl.crawl"
+      ]
+    },
+    {
+      "name": "google_calendar",
+      "description": "Calendar event management for temporal context",
+      "tools": [
+        "google_calendar.list_events",
+        "google_calendar.create_event"
+      ]
+    },
+    {
+      "name": "youtube",
+      "description": "YouTube video transcript and metadata for knowledge ingestion",
+      "tools": [
+        "youtube.get_transcript",
+        "youtube.search"
+      ]
+    }
+  ]
+}

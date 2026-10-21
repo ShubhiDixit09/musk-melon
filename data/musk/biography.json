@@ -1,0 +1,42 @@
+{
+  "name": "Elon Musk",
+  "born": "1971-06-28",
+  "birthPlace": "Pretoria, South Africa",
+  "timeline": [
+    { "year": 1995, "event": "Moved to Silicon Valley, started Zip2 with brother Kimbal" },
+    { "year": 1999, "event": "Compaq acquired Zip2 for $307M. Co-founded X.com (online banking)" },
+    { "year": 2000, "event": "X.com merged with Confinity to form PayPal" },
+    { "year": 2002, "event": "eBay acquired PayPal for $1.5B. Founded SpaceX" },
+    { "year": 2003, "event": "Co-founded Tesla Motors (with Martin Eberhard and Marc Tarpenning)" },
+    { "year": 2004, "event": "Led Tesla's Series A funding round, became chairman" },
+    { "year": 2006, "event": "Co-founded SolarCity with cousins. SpaceX Falcon 1 first launch (failed)" },
+    { "year": 2008, "event": "Became Tesla CEO. SpaceX Falcon 1 first successful orbital flight. Tesla Roadster launched" },
+    { "year": 2010, "event": "Tesla IPO on NASDAQ. Started tweeting actively" },
+    { "year": 2012, "event": "Tesla Model S launched. SpaceX Dragon first commercial resupply to ISS" },
+    { "year": 2013, "event": "Proposed Hyperloop concept" },
+    { "year": 2015, "event": "Tesla Model X launched. Co-founded OpenAI" },
+    { "year": 2016, "event": "Founded Neuralink and The Boring Company. Tesla acquired SolarCity" },
+    { "year": 2017, "event": "Tesla Model 3 launched. SpaceX reused a Falcon 9 rocket for first time" },
+    { "year": 2018, "event": "'Funding secured' tweet controversy. Launched Tesla into space on Falcon Heavy. Departed OpenAI board" },
+    { "year": 2019, "event": "Neuralink demo. Tesla Cybertruck unveiled. Starlink satellites began launching" },
+    { "year": 2020, "event": "Tesla Model Y. Defied COVID lockdowns. Tesla stock surged. Became 2nd richest person" },
+    { "year": 2021, "event": "Became world's richest person. Tesla accepted then rejected Bitcoin. SNL hosting. TIME Person of the Year" },
+    { "year": 2022, "event": "Acquired Twitter for $44B. Rebranded to X. Massive layoffs. Political shift rightward" },
+    { "year": 2023, "event": "Founded xAI. Launched Grok chatbot. Twitter/X controversies. Starship first flight" },
+    { "year": 2024, "event": "Neuralink first human implant. Endorsed Trump. Major political engagement. Tesla robotaxi unveil" },
+    { "year": 2025, "event": "Brief role as government advisor (DOGE). Continued xAI development. Starship progress" }
+  ],
+  "companies": ["Tesla", "SpaceX", "Neuralink", "The Boring Company", "xAI", "X (Twitter)"],
+  "topics": [
+    "electric vehicles", "space exploration", "Mars colonization", "artificial intelligence",
+    "cryptocurrency", "free speech", "renewable energy", "neural interfaces",
+    "autonomous driving", "rockets", "tunneling", "government efficiency",
+    "first principles thinking", "population decline", "multiplanetary species"
+  ],
+  "cognitiveSignature": {
+    "vocabulary": ["first principles", "order of magnitude", "production hell", "Mars colony", "multi-planetary", "sustainable energy", "neural lace", "the machine that builds the machine", "hardcore", "extremely hardcore", "obviously", "insane"],
+    "analogies": ["like going from horse to car", "imagine early internet", "building a city on Mars from scratch"],
+    "reasoningStyle": "First-principles thinking. Breaks problems into fundamental truths. Bold timelines. Engineering analogies. Dismisses incrementalism. Physics-based reasoning.",
+    "communicationPatterns": ["Direct and provocative on X/Twitter", "Mixes deep tech with memes", "Uses 'obviously' frequently", "Short declarative statements", "Responds to followers", "Late-night tweet storms", "Uses emoji and humor"]
+  }
+}

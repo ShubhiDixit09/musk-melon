@@ -1,0 +1,122 @@
+{
+  "version": "1.0",
+  "description": "MindCommit policy rules — controls what the Elon Musk Knowledge Twin agent can and cannot do",
+  "rules": [
+    {
+      "id": "deny-refund-over-500",
+      "description": "GDG Production Guardrail: Reject any refund over $500. Enforced before calling Stripe API.",
+      "condition": {
+        "tool": "stripe.refunds.create",
+        "params": {
+          "amount": { "gt": 50000 }
+        }
+      },
+      "action": "deny",
+      "message": "Policy Violation: Refund amount exceeds the maximum $500 threshold limit ($500.00 maximum allowed). Request blocked by policy engine before executing Stripe API."
+    },
+    {
+      "id": "allow-stripe-refund",
+      "description": "Allow Stripe refunds under or equal to $500",
+      "condition": { "tool": "stripe.refunds.create" },
+      "action": "allow"
+    },
+    {
+      "id": "allow-stripe-customer",
+      "description": "Allow retrieving Stripe customer data",
+      "condition": { "tool": "stripe.customers.retrieve" },
+      "action": "allow"
+    },
+    {
+      "id": "allow-drive-read",
+      "description": "Allow reading files from Google Drive for knowledge ingestion",
+      "condition": { "tool": "googledrive.*" },
+      "action": "allow"
+    },
+    {
+      "id": "allow-notion-read",
+      "description": "Allow all Notion read operations for knowledge ingestion",
+      "condition": { "tool": "notion.*" },
+      "action": "allow"
+    },
+    {
+      "id": "allow-github-read",
+      "description": "Allow all GitHub read operations for code knowledge",
+      "condition": { "tool": "github.*" },
+      "action": "allow"
+    },
+    {
+      "id": "allow-youtube-read",
+      "description": "Allow YouTube read operations for interview/talk ingestion",
+      "condition": { "tool": "youtube.*" },
+      "action": "allow"
+    },
+    {
+      "id": "allow-calendar-read",
+      "description": "Allow reading calendar events for temporal context",
+      "condition": { "tool": "google_calendar.list_events" },
+      "action": "allow"
+    },
+    {
+      "id": "allow-firecrawl",
+      "description": "Allow web scraping for public content ingestion",
+      "condition": { "tool": "firecrawl.*" },
+      "action": "allow"
+    },
+    {
+      "id": "approve-gmail-send",
+      "description": "Require approval or notify on sending emails via Gmail",
+      "condition": { "tool": "gmail.send_email" },
+      "action": "allow",
+      "message": "MindCommit sending verified notification email."
+    },
+    {
+      "id": "allow-gmail-read",
+      "description": "Allow reading Gmail messages for knowledge ingestion",
+      "condition": { "tool": ["gmail.list_messages", "gmail.get_message"] },
+      "action": "allow"
+    },
+    {
+      "id": "approve-slack-send",
+      "description": "Require approval before posting to Slack",
+      "condition": { "tool": "slack.post_message" },
+      "action": "require_approval",
+      "message": "MindCommit wants to post an answer to Slack. Please review and approve."
+    },
+    {
+      "id": "allow-slack-read",
+      "description": "Allow reading Slack history for context",
+      "condition": { "tool": ["slack.list_channels", "slack.get_channel_history"] },
+      "action": "allow"
+    },
+    {
+      "id": "approve-telegram-send",
+      "description": "Require approval before sending Telegram messages",
+      "condition": { "tool": "telegram.send_message" },
+      "action": "require_approval",
+      "message": "MindCommit wants to send a Telegram message. Please review and approve."
+    },
+    {
+      "id": "approve-resend",
+      "description": "Require approval before sending transactional emails via Resend",
+      "condition": { "tool": "resend.send_email" },
+      "action": "require_approval",
+      "message": "MindCommit wants to send an Answer Receipt email via Resend. Please review."
+    },
+    {
+      "id": "deny-destructive",
+      "description": "Deny ALL destructive operations across ALL integrations",
+      "condition": { "tool": "*.delete_*" },
+      "action": "deny",
+      "message": "Destructive operations are never permitted by MindCommit. Knowledge is append-only."
+    },
+    {
+      "id": "rate-limit-sends",
+      "description": "Rate limit all outbound communications to prevent spam",
+      "condition": {
+        "tool": ["gmail.send_email", "slack.post_message", "telegram.send_message", "resend.send_email"]
+      },
+      "action": "rate_limit",
+      "limit": { "max": 10, "window": "1h" }
+    }
+  ]
+}
